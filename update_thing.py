@@ -86,3 +86,7 @@ def main() -> None:
 
     # This should only really be terminated when the application is done
     db_connection.close()
+
+
+if __name__ == "__main__":
+    main()
